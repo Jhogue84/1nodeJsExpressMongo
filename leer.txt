@@ -1,0 +1,42 @@
+Fundamentos 1.
+*.Creamos un archivo index.js
+    Creamos un arreglo frutas, con un foreach recorrimos el arreglo.
+    console.log("mostrar arreglo por cosola")
+*.Comando "node index.js" -> comando para ejecutar el archivo y ver el resultado.
+
+*.Creamos otro archivo js, donde creamos otro arreglo animales.
+    Exportamos por medio de modulos incluidos.
+    En index.js, importamos o requerimos el arreglo.
+    Repetimos los paso para mostrar el arreglo en consola.
+
+----node js---
+
+*.El comando "npm init -y", crea archivo de info nuestro proyecto (package.json), que administrara dependencias
+y script. (hay dependencias de desarrollo)
+
+*.Para ejecutar cada archivo(script de package.json) se utiliza comando "npm run xxx"
+
+*.Para ejecutar cada archivo se utilizaba comando "node nombreArchivo.js" con o sin extencion.
+*.Modificar el package.json y dar el nombre del script asi: {"xxx" : "node ."} 
+
+*NPM -- instalacion de paquetes o dependencias, como la exportacion del modulo que creamos.
+*.Instalamos dependencias como "cowsay" para el ejemplo; esto modifica el package.json
+
+*.HTTP, creacion del servidor, usando el modulo http
+	este servidor se escucha en un puerto, y nos da una respusta, si modificamos algo debemos reiniciar el servidor.
+
+*.Nodemon, el servidor se actualiza automaticamente, instalamos esta dependencia de forma global -g, o de desarrollo -D. 
+	para ejecutar el servidor: "nodemon index.js", y queda en la escucha el servidor.
+
+*.Express, creamos otro servidor utilizando otra dependencia llamada express (framework) pra app web.
+	con algunas configuraciones sencillas
+*.Express, tambien modificamos este ultimo serviodor con otras mejors y configuraciones.
+
+
+
+
+
+
+
+
+
